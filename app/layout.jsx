@@ -1,3 +1,5 @@
+import Nav from '@components/Nav'
+import Provider from '@components/Provider'
 import '@styles/globals.css'
 import { Children } from 'react'
 
@@ -16,6 +18,8 @@ function RootLayout({children}) {
             </div>
 
             <main className='app'>
+              <Nav/>
+              
                  {children}
             </main>
         </body>

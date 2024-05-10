@@ -1,3 +1,4 @@
+import Feed from "@components/Feed"
 
 function Home() {
   return (
@@ -13,7 +14,11 @@ function Home() {
         Promptopia is ann open sorce AI Prommpting tool for modern world
         to discover, create and share creative prompts.
        </p>
+
+       <Feed/>
     </section>
+
+    
   )
 }
 
