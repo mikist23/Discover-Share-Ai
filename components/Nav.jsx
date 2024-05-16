@@ -31,7 +31,7 @@ function Nav() {
         height={30}/>
         <p className='logo_text'>Promptopia</p>
       </Link>
-      {/**Mobile Navigation */}
+      {/**Desktop Navigation */}
          <div className='sm:flex hidden'>
             {isUserLogedIn ? (
               <div className='flex gap-3 md:gap-5'>
@@ -65,6 +65,12 @@ function Nav() {
               </>
             )}
          </div>
+
+          {/**Mobile Navigation */}
+          {isUserLogedIn ? (<div className=''>
+
+          </div>) : (<>
+          </>)}
     </nav>
   )
 }
