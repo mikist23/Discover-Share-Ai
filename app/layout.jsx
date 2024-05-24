@@ -9,7 +9,7 @@ export const metadata = {
 }
 
 function RootLayout({children}) {
-
+  const [cout  ,setCout] = useState(0)
   return (
     <html lang='en'>
         <body>
